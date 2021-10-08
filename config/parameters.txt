@@ -1,0 +1,17 @@
+# develop board ip address
+board_ip=192.168.1.4
+#board_ip=172.20.10.3
+
+# port 
+port=1883
+
+# keep alive number
+keepalive=60
+
+# topic
+lidar_topic=/lidar_pointcloud
+imu_topic=/BMI088
+image_topic=/image
+pose_topic=/pose
+wheel_odometry_topic=/wheel_odometry
+
